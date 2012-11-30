@@ -1,95 +1,86 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-	<title>heyu / about</title>
-	<meta name="author" content="heyu" />
-	<meta name="description" content="A blog belong to hheyuabout my coding life, also something about Design and Art." />
-	<meta name="keywords" content="heyu, Mac, OS X, Jekyll, GitHub" />
-	<link href="http://elilien.com/atom.xml" rel="alternate" title="elilien / blog" type="application/atom+xml" />
-	
-	<link rel="stylesheet" href="/stylesheets/master.css?20121125005129" type="text/css" media="screen" title="no title" charset="utf-8" />
-	<link rel="stylesheet" href="/resources/fancybox/fancybox.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	
-	<script src="/javascripts/libs.js?20121125005129" type="text/javascript" charset="utf-8"></script>
-	<script src="/javascripts/main.js?20121125005129" type="text/javascript" charset="utf-8"></script>
-	
-	<link rel="openid.server" href="http://www.myopenid.com/server" />
-	<link rel="openid.delegate" href="http://elilien.myopenid.com/" />
-	<link rel="openid2.local_id" href="http://elilien.myopenid.com" />
-	<link rel="openid2.provider" href="http://www.myopenid.com/server" />
-	<meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=elilien.myopenid.com" />
-	
-	<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-33697767-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+---
+layout:           default
+---
+<script type="text/javascript">
+    BYB.images = [
+        'http://ww1.sinaimg.cn/large/8b8af2c8gw1do3ek44ojej.jpg'
+        ,'http://ww1.sinaimg.cn/large/8b8af2c8gw1do3eq6pla4j.jpg'
+        ,'http://ww1.sinaimg.cn/large/a74e55b4jw1dv23n1n9zaj.jpg'
+        ,'http://ww3.sinaimg.cn/large/a74e55b4jw1dv23op0j6qj.jpg'
+    ];
+    BYB.img = new Image();
+    BYB.img.src = BYB.images[parseInt(Math.random()*10,10)%4];
+    BYB.img.id = 'bgImage'
 </script>
-</head>
-
-<body>
-	
-<div id="universe">
-
-	<div id="header">
-		<div id="navigation">
-			<a href="/" class="selected">about</a>
-			<a href="/blog/">blog</a>
-			<a href="/">one more thing</a>
-		</div>
-		<div class="clear"></div>
-	</div>
-
-<div id="about">
-  <span class="avatar"><a href="http://gravatar.com/avatar/2ce37552d4eae9fb07565fd184ecc0be.jpg?s=354" class="fancybox"><img src="http://gravatar.com/avatar/2ce37552d4eae9fb07565fd184ecc0be.jpg?s=70" alt="" /></a></span>
-  <h4 class="thin">
-    Hi, my name is <strong>Eli Lien</strong>.
-  </h4>
-  <p class="description">
-    I study software engineering at DUT. I'm also a web-developer / designer and every morning I sprinkle a little bit of insanity over my fingers of creativity and inspiration.
-  </p>
-  <table class="info" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td class="label">email</td>
-      <td><script type="text/javascript">document.write(
-"<n uers=\"znvygb:ryvyvra\100zr\056pbz\" bapyvpx=\"_tnd\056chfu(['_genpxRirag', 'yvaxGb', 'rznvy', guvf\056uers]);\">ryvyvra\100zr\056pbz<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-</script></td>
-      <!--td class="label">vcard</td>
-      <td><a href="/vcard" onclick="_gaq.push(['_trackEvent', 'download', 'vcard', '.vcf']);">download</a></td-->
-      <td class="label">resume</td>
-      <td>
-        <!--a href="/resume/eli-lien-resume.pdf" onclick="_gaq.push(['_trackEvent', 'download', 'resume', '.pdf']);"-->pdf<!--/a-->
-      </td>
-    </tr>
-    <tr>
-      <td class="label">
-        <a href="http://www.google.com/search?q=elilien" onclick="_gaq.push(['_trackEvent', 'linkTo', 'google', this.href]);">more</a>
-      </td>
-      <td colspan="5">
-        <a href="https://twitter.com/elilien" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);">twitter</a>,
-					<a href="https://github.com/elilien" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);">github</a>,
-					<a href="https://www.facebook.com/therealelilien" onclick="_gaq.push(['_trackEvent', 'linkTo', 'facebook', this.href]);">facebook</a>,
-					<a href="https://plus.google.com/112702533973927806852?rel=author" onclick="_gaq.push(['_trackEvent', 'linkTo', 'google+', this.href]);">google+</a>,
-					<a href="http://www.flickr.com/photos/eli-lien/" onclick="_gaq.push(['_trackEvent', 'linkTo', 'flickr', this.href]);">flickr</a>
-      </td>
-    </tr>
-  </table>
+<div id="mycard" class="clearfix">
+    <div class="name">
+        <a href="/" class="link-icon">BeiYuu</a>
+    </div>
+    <div class="blog">
+        <a href="/blog" class="link-icon"><span></span></a>
+        <a href="/blog" class="link-info hide"><span>Blog</span></a>
+    </div>
+    <div class="project">
+        <a href="/project" class="link-icon"><span></span></a>
+        <a href="/project" class="link-info hide"><span>Project</span></a>
+    </div>
+    <div class="opinion">
+        <a href="/opinion" class="link-icon"><span></span></a>
+        <a href="/opinion" class="link-info hide"><span>Opinion</span></a>
+    </div>
+    <div class="about">
+        <a href="/about" class="link-icon"><span></span></a>
+        <a href="/about" class="link-info hide"><span>About Me</span></a>
+    </div>
+    <div class="rss">
+        <a href="{{ site.feed }}" class="link-icon"><span></span></a>
+        <a href="{{ site.feed }}" class="link-info hide"><span>Rss</span></a>
+    </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var imgWidth,imgHeight,winWidth,winHeight;
+        var imgComplete = function(){
+            imgHeight = BYB.img.height;
+            imgWidth = BYB.img.width;
+            resizeWindow();
+            //$('#mycard').css({'opacity':0.8});
+            $('body').css('background','none');
+            $(BYB.img).animate({opacity:'toggle'},500);
+        };
 
+        var resizeWindow = function(){
+            var _width,_height;
+            winHeight = $(document).height();
+            winWidth = $(document).width();
+            _height = imgHeight*winWidth/imgWidth;
+            _width = imgWidth*winHeight/imgHeight;
+            if(_height < winHeight){
+                $('#bgImage').css({'height':winHeight,'width':_width,'left':-(_width-winWidth)*0.5});
+            }else{
+                $('#bgImage').css({'width':winWidth,'height':_height,'left':0});
+            }
+        };
 
-</div>
+        $(BYB.img).css({'position':'fixed','top':'0','z-index':'-2','display':'none'});
+        $('body').append(BYB.img);
+        if(BYB.img.complete){
+            imgComplete()
+        }else{
+            BYB.img.onload = imgComplete;
+        }
 
-</body>
-</html>
+        $(window).on('resize',resizeWindow);
 
+        $('#mycard div').on('mouseenter',function(){
+            if(!$(this).hasClass('name')){
+                $(this).addClass('link-hover');
+                $(this).children('.link-info').removeClass('hide').animate({height:'23px'},'fast');
+            }
+        });
+        $('#mycard div').on('mouseleave',function(){
+            $(this).removeClass('link-hover');
+            $(this).children('.link-info').stop().animate({height:'0'});
+        });
+    })
+</script>
